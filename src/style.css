@@ -2,4 +2,43 @@
 
 body{
     background: white;
+    font-size: 16px;
+}
+
+.genExcusas_main{
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.genExcusas_main-item:first-child{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+#excusa{
+    color: #fcd703;
+    font-size: 2em;
+}
+
+#reload{
+    font-size: 1em;
+    margin: 0;
+}
+
+#reload-button{
+    color: blueviolet;
+    font-size: 1.2em;
+    cursor: pointer;
+    &&:hover{
+        color: rgb(248, 179, 50);
+    }
+} 
+
+.genExcusas_footer{
+    color: rgb(0, 0, 0, 0.3);
 }
